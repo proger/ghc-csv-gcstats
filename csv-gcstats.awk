@@ -6,7 +6,7 @@
 # Field legend:
 # https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/runtime_control.html#rts-options-to-produce-runtime-statistics
 #
-# - Timestamp (inferred from -vgt bits of output)
+# - Timestamp (inferred from -vgt bits of output, nanoseconds since start https://github.com/haskell/ghc-events/blob/8ff5c1d15aa70a7e35afa0e977b5b7fbaca78051/include/EventLogFormat.h#L302)
 # - How many bytes we allocated this garbage collection.
 # - How many bytes we copied this garbage collection.
 # - How many bytes are currently live.
